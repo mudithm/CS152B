@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Xilinx_Shared/Lab0/BCD_Counter_Test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="BCD_Counter_Test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/BCD_Counter_Test/CO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CO</obj_property>
+      <obj_property name="ObjectShortName">CO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/Q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/ENABLE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ENABLE</obj_property>
+      <obj_property name="ObjectShortName">ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/LOAD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LOAD</obj_property>
+      <obj_property name="ObjectShortName">LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/UP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UP</obj_property>
+      <obj_property name="ObjectShortName">UP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/CLR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLR</obj_property>
+      <obj_property name="ObjectShortName">CLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/load_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load_data</obj_property>
+      <obj_property name="ObjectShortName">load_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/increment" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">increment</obj_property>
+      <obj_property name="ObjectShortName">increment</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/decrement" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">decrement</obj_property>
+      <obj_property name="ObjectShortName">decrement</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/value_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">value_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">value_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/value_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">value_9[3:0]</obj_property>
+      <obj_property name="ObjectShortName">value_9[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/carry_add" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">carry_add</obj_property>
+      <obj_property name="ObjectShortName">carry_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/carry_sub" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">carry_sub</obj_property>
+      <obj_property name="ObjectShortName">carry_sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Counter_Test/uut/pos_edge" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pos_edge</obj_property>
+      <obj_property name="ObjectShortName">pos_edge</obj_property>
+   </wvobject>
+</wave_config>
