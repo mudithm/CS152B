@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-10-05T17:43:39</DateModified>
+  <DateModified>2020-10-08T21:27:55</DateModified>
   <ModuleName>BCD_Counter</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/ise/Xilinx_Shared/Lab0/iseconfig/BCD_Counter.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Xilinx_Shared/Lab0</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/ise/Xilinx_Shared/Lab0/</ImplementationReportsDirectory>
   <DateInitialized>2020-10-05T17:43:39</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

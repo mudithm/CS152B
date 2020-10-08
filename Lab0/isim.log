@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/Xilinx_Shared/Lab0/BCD_Counter_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Xilinx_Shared/Lab0/BCD_Counter_Test_isim_beh.wdb 
+Running: /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test_isim_beh.wdb 
 ISim P.20160913 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
@@ -13,4 +13,9 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# run 10.00us
+# restart
+# run 100.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 5 us : File "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test.v" Line 81
+# exit 0

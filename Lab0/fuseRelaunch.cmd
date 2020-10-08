@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Xilinx_Shared/Lab0/BCD_Counter_Test_isim_beh.exe" -prj "/home/ise/Xilinx_Shared/Lab0/BCD_Counter_Test_beh.prj" "work.BCD_Counter_Test" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test_isim_beh.exe" -prj "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test_beh.prj" "work.BCD_Divisibility_11_Test" "work.glbl" 
