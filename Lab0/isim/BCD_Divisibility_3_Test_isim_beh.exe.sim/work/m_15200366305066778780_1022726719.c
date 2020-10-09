@@ -21,8 +21,9 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3.v";
+static const char *ng0 = "/home/ise/Xilinx_Shared/Lab0/MathHelperFunctions.v";
 static int ng1[] = {0, 0};
+static const char *ng2 = "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3.v";
 
 
 
@@ -202,9 +203,9 @@ static int sp_single_bit_adder(char *t1, char *t2)
     char *t173;
 
 LAB0:    t0 = 1;
-    xsi_set_current_line(41, ng0);
+    xsi_set_current_line(5, ng0);
 
-LAB2:    xsi_set_current_line(42, ng0);
+LAB2:    xsi_set_current_line(6, ng0);
     t3 = (t1 + 3864);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -250,7 +251,7 @@ LAB5:    t23 = (t1 + 4184);
 LAB7:
 LAB8:    t40 = (t1 + 4344);
     xsi_vlogvar_assign_value(t40, t26, 0, 0, 1);
-    xsi_set_current_line(43, ng0);
+    xsi_set_current_line(7, ng0);
     t3 = (t1 + 3864);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -356,7 +357,7 @@ LAB20:    t146 = *((unsigned int *)t79);
 LAB22:
 LAB23:    t173 = (t1 + 4504);
     xsi_vlogvar_assign_value(t173, t145, 0, 0, 1);
-    xsi_set_current_line(44, ng0);
+    xsi_set_current_line(8, ng0);
     t3 = (t1 + 4504);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -561,9 +562,9 @@ static int sp_two_digit_adder(char *t1, char *t2)
     char *t54;
 
 LAB0:    t0 = 1;
-    xsi_set_current_line(51, ng0);
+    xsi_set_current_line(16, ng0);
 
-LAB2:    xsi_set_current_line(52, ng0);
+LAB2:    xsi_set_current_line(17, ng0);
     t3 = (t1 + 4824);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -632,7 +633,7 @@ LAB4:    t38 = (t2 + 64U);
     xsi_vlogvar_assign_value(t53, t49, 0, 0, 1);
     t54 = (t1 + 6104);
     xsi_vlogvar_assign_value(t54, t49, 1, 0, 1);
-    xsi_set_current_line(53, ng0);
+    xsi_set_current_line(18, ng0);
     t3 = (t1 + 4824);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -701,7 +702,7 @@ LAB7:    t38 = (t2 + 64U);
     xsi_vlogvar_assign_value(t53, t49, 0, 0, 1);
     t54 = (t1 + 5944);
     xsi_vlogvar_assign_value(t54, t49, 1, 0, 1);
-    xsi_set_current_line(54, ng0);
+    xsi_set_current_line(19, ng0);
     t3 = (t1 + 4824);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -770,7 +771,7 @@ LAB10:    t38 = (t2 + 64U);
     xsi_vlogvar_assign_value(t53, t49, 0, 0, 1);
     t54 = (t1 + 5784);
     xsi_vlogvar_assign_value(t54, t49, 1, 0, 1);
-    xsi_set_current_line(55, ng0);
+    xsi_set_current_line(20, ng0);
     t3 = (t1 + 4824);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -839,7 +840,7 @@ LAB13:    t38 = (t2 + 64U);
     xsi_vlogvar_assign_value(t53, t49, 0, 0, 1);
     t54 = (t1 + 5624);
     xsi_vlogvar_assign_value(t54, t49, 1, 0, 1);
-    xsi_set_current_line(56, ng0);
+    xsi_set_current_line(21, ng0);
     t3 = (t1 + 4824);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -895,7 +896,7 @@ LAB16:    t34 = (t2 + 64U);
     xsi_vlogvar_assign_value(t48, t18, 0, 0, 1);
     t50 = (t1 + 5464);
     xsi_vlogvar_assign_value(t50, t18, 1, 0, 1);
-    xsi_set_current_line(57, ng0);
+    xsi_set_current_line(22, ng0);
     t3 = (t1 + 4824);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -951,7 +952,7 @@ LAB19:    t34 = (t2 + 64U);
     xsi_vlogvar_assign_value(t48, t18, 0, 0, 1);
     t50 = (t1 + 5304);
     xsi_vlogvar_assign_value(t50, t18, 1, 0, 1);
-    xsi_set_current_line(58, ng0);
+    xsi_set_current_line(23, ng0);
     t3 = (t1 + 6424);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -1047,9 +1048,9 @@ static int sp_four_digit_adder(char *t1, char *t2)
     char *t39;
 
 LAB0:    t0 = 1;
-    xsi_set_current_line(66, ng0);
+    xsi_set_current_line(32, ng0);
 
-LAB2:    xsi_set_current_line(67, ng0);
+LAB2:    xsi_set_current_line(33, ng0);
     t3 = (t1 + 6744);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -1097,7 +1098,7 @@ LAB4:    t20 = (t2 + 64U);
     xsi_vlogvar_assign_value(t36, t35, 0, 0, 1);
     t37 = (t1 + 7544);
     xsi_vlogvar_assign_value(t37, t35, 1, 0, 7);
-    xsi_set_current_line(68, ng0);
+    xsi_set_current_line(34, ng0);
     t3 = (t1 + 7544);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -1147,7 +1148,7 @@ LAB7:    t22 = (t2 + 64U);
     xsi_vlogvar_assign_value(t38, t35, 0, 0, 1);
     t39 = (t1 + 7384);
     xsi_vlogvar_assign_value(t39, t35, 1, 0, 7);
-    xsi_set_current_line(69, ng0);
+    xsi_set_current_line(35, ng0);
     t3 = (t1 + 7384);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -1248,7 +1249,7 @@ LAB0:    t1 = (t0 + 8616U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(31, ng0);
+LAB2:    xsi_set_current_line(31, ng2);
     t2 = (t0 + 2344U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -1324,7 +1325,7 @@ LAB0:    t1 = (t0 + 8864U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(32, ng0);
+LAB2:    xsi_set_current_line(32, ng2);
     t2 = (t0 + 2344U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -1400,7 +1401,7 @@ LAB0:    t1 = (t0 + 9112U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(33, ng0);
+LAB2:    xsi_set_current_line(33, ng2);
     t2 = (t0 + 2344U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -1476,7 +1477,7 @@ LAB0:    t1 = (t0 + 9360U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(34, ng0);
+LAB2:    xsi_set_current_line(34, ng2);
     t2 = (t0 + 2344U);
     t4 = *((char **)t2);
     memset(t3, 0, 8);
@@ -1517,7 +1518,7 @@ LAB2:    xsi_set_current_line(34, ng0);
 LAB1:    return;
 }
 
-static void Cont_73_4(char *t0)
+static void Cont_40_4(char *t0)
 {
     char t4[8];
     char t6[8];
@@ -1573,7 +1574,7 @@ LAB0:    t1 = (t0 + 9608U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(73, ng0);
+LAB2:    xsi_set_current_line(40, ng2);
     t2 = (t0 + 2664U);
     t3 = *((char **)t2);
     memcpy(t4, t3, 8);
@@ -1652,7 +1653,7 @@ LAB6:    t17 = (t0 + 9608U);
 
 extern void work_m_15200366305066778780_1022726719_init()
 {
-	static char *pe[] = {(void *)Cont_31_0,(void *)Cont_32_1,(void *)Cont_33_2,(void *)Cont_34_3,(void *)Cont_73_4};
+	static char *pe[] = {(void *)Cont_31_0,(void *)Cont_32_1,(void *)Cont_33_2,(void *)Cont_34_3,(void *)Cont_40_4};
 	static char *se[] = {(void *)sp_single_bit_adder,(void *)sp_two_digit_adder,(void *)sp_four_digit_adder};
 	xsi_register_didat("work_m_15200366305066778780_1022726719", "isim/BCD_Divisibility_3_Test_isim_beh.exe.sim/work/m_15200366305066778780_1022726719.didat");
 	xsi_register_executes(pe);

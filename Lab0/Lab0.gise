@@ -110,7 +110,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602272616" xil_pn:in_ck="4841287131790679999" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1602272616">
+    <transform xil_pn:end_ts="1602273234" xil_pn:in_ck="3465438514364284550" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1602273234">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BCD_Counter.v"/>
@@ -119,6 +119,7 @@
       <outfile xil_pn:name="BCD_Divisibility_11_Test.v"/>
       <outfile xil_pn:name="BCD_Divisibility_3.v"/>
       <outfile xil_pn:name="BCD_Divisibility_3_Test.v"/>
+      <outfile xil_pn:name="MathHelperFunctions.v"/>
     </transform>
     <transform xil_pn:end_ts="1602271723" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-480956266654573371" xil_pn:start_ts="1602271723">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -132,7 +133,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602272616" xil_pn:in_ck="4841287131790679999" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1602272616">
+    <transform xil_pn:end_ts="1602273234" xil_pn:in_ck="3465438514364284550" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1602273234">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BCD_Counter.v"/>
@@ -141,8 +142,9 @@
       <outfile xil_pn:name="BCD_Divisibility_11_Test.v"/>
       <outfile xil_pn:name="BCD_Divisibility_3.v"/>
       <outfile xil_pn:name="BCD_Divisibility_3_Test.v"/>
+      <outfile xil_pn:name="MathHelperFunctions.v"/>
     </transform>
-    <transform xil_pn:end_ts="1602272618" xil_pn:in_ck="4841287131790679999" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3433642971013527799" xil_pn:start_ts="1602272616">
+    <transform xil_pn:end_ts="1602273236" xil_pn:in_ck="3465438514364284550" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3433642971013527799" xil_pn:start_ts="1602273234">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -154,7 +156,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1602272618" xil_pn:in_ck="-2208367724541615583" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="277451161837435372" xil_pn:start_ts="1602272618">
+    <transform xil_pn:end_ts="1602273236" xil_pn:in_ck="-2208367724541615583" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="277451161837435372" xil_pn:start_ts="1602273236">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BCD_Divisibility_3_Test_isim_beh.wdb"/>
@@ -194,6 +196,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BCD_Divisibility_11.lso"/>

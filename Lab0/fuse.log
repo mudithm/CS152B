@@ -8,7 +8,7 @@ Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3_Test.v" 
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 94944 KB
+Fuse Memory Usage: 94948 KB
 Fuse CPU Usage: 420 ms
 Compiling module BCD_Divisibility_3
 Compiling module BCD_Divisibility_3_Test
@@ -16,6 +16,6 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 3 Verilog Units
 Built simulation executable /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3_Test_isim_beh.exe
-Fuse Memory Usage: 98180 KB
-Fuse CPU Usage: 430 ms
-GCC CPU Usage: 140 ms
+Fuse Memory Usage: 98184 KB
+Fuse CPU Usage: 440 ms
+GCC CPU Usage: 130 ms
