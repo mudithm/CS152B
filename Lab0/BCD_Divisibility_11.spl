@@ -1,0 +1,8 @@
+[Inputs]
+=INPUT[15:0]=
+[Outputs]
+OUTPUT
+[BiDir]
+[ATTRIBUTES]
+VeriModel BCD_Divisibility_11
+

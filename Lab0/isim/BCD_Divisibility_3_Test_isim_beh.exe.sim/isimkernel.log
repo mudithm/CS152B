@@ -1,15 +1,15 @@
 Command line:
    BCD_Divisibility_3_Test_isim_beh.exe
      -simmode  gui
-     -simrunnum  1
-     -socket  53786
+     -simrunnum  0
+     -socket  56890
 
-Thu Oct  8 21:32:12 2020
+Fri Oct  9 02:53:28 2020
 
 
- Elaboration Time: 0.03 sec
+ Elaboration Time: 0.02 sec
 
- Current Memory Usage: 198.582 Meg
+ Current Memory Usage: 198.578 Meg
 
  Total Signals          : 21
  Total Nets             : 52
@@ -22,7 +22,7 @@ Thu Oct  8 21:32:12 2020
 
  Total Simulation Time: 0.03 sec
 
- Current Memory Usage: 276.181 Meg
+ Current Memory Usage: 276.177 Meg
 
-Thu Oct  8 21:35:17 2020
+Fri Oct  9 02:57:41 2020
 

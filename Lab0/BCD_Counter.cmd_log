@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+vhdtdtfi -lib work /home/ise/Xilinx_Shared/Lab0/BCD_Counter.v -lang verilog -prj Lab0 -o BCD_Counter.spl -module BCD_Counter -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 BCD_Counter.spl /home/ise/Xilinx_Shared/Lab0/BCD_Counter.sym 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Counter.syr" 

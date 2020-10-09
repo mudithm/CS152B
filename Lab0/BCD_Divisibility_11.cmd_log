@@ -1,0 +1,9 @@
+vhdtdtfi -lib work /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.v -lang verilog -prj Lab0 -o BCD_Divisibility_11.spl -module BCD_Divisibility_11 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 BCD_Divisibility_11.spl /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.sym 
+vhdtdtfi -lang verilog -prj Lab0 -o /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.tfi -lib work /home/ise/Xilinx_Shared/Lab0//BCD_Divisibility_11.v -module BCD_Divisibility_11 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 BCD_Divisibility_11.ngc BCD_Divisibility_11.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_Divisibility_11_map.ncd BCD_Divisibility_11.ngd BCD_Divisibility_11.pcf 
+par -w -intstyle ise -ol high -mt off BCD_Divisibility_11_map.ncd BCD_Divisibility_11.ncd BCD_Divisibility_11.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_Divisibility_11.twx BCD_Divisibility_11.ncd -o BCD_Divisibility_11.twr BCD_Divisibility_11.pcf 

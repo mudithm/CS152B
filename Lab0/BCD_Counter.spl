@@ -1,0 +1,14 @@
+[Inputs]
+CLK
+ENABLE
+LOAD
+UP
+CLR
+=D[3:0]=
+[Outputs]
+CO
+=Q[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel BCD_Counter
+

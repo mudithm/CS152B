@@ -58,7 +58,54 @@ module BCD_Counter_Test;
       CLR = 0;
 		
 		// Test Loading from D
-		D = 4'b0001;
+		/*
+		D = 4'b1001;
+		ENABLE = 1;
+		LOAD = 1;
+		UP = 0;
+		*/
+		
+		//Clear test
+		D <= 4'b0100;
+		ENABLE = 1;
+		LOAD = 1;
+		UP = 0;
+				
+		#100 CLK <= !CLK;
+		#100 CLK <= !CLK;
+		
+	end
+	
+	/*
+	always @(*) begin
+		// Test decrementing
+		ENABLE = 1;
+		LOAD = 0;
+		UP = 1;
+		
+		#100 CLK <= !CLK;
+		#100 CLK <= !CLK;
+	end
+	*/
+	
+	/*
+	always @(*) begin
+		// Test decrementing
+		ENABLE = 1;
+		LOAD = 0;
+		UP = 0;
+		
+		#100 CLK <= !CLK;
+		#100 CLK <= !CLK;
+	end
+	*/
+	
+	
+	/*
+	always @(*) begin
+		// Test Loading
+		// Test Loading from D
+		D = D + 1;
 		ENABLE = 1;
 		LOAD = 1;
 		UP = 0;
@@ -66,20 +113,27 @@ module BCD_Counter_Test;
 		
 		#100 CLK <= !CLK;
 		#100 CLK <= !CLK;
-		
 	end
+	*/
 	
+	//CLR test
 	always @(*) begin
-		// Test Decrementing
-		ENABLE = 1;
+		// Test Loading from D
+		
+		CLR = 1;
+		ENABLE = 0;
 		LOAD = 0;
 		UP = 0;
 		
 		#100 CLK <= !CLK;
 		#100 CLK <= !CLK;
+		CLR = 0;
+		
 		#100 CLK <= !CLK;
 		#100 CLK <= !CLK;
+		
 	end
+	
       
 endmodule
 

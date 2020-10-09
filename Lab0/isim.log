@@ -13,8 +13,11 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+# run 10.00us
+Stopped at time : 5 us : File "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test.v" Line 81
+# run 10.00us
 # restart
-# run 100.00us
+# run 10.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 Stopped at time : 5 us : File "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test.v" Line 81

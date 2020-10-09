@@ -10,10 +10,12 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="17" />
+   <WVObjectSize size="8" />
    <wvobject fp_name="/BCD_Counter_Test/CO" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">CO</obj_property>
       <obj_property name="ObjectShortName">CO</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
    </wvobject>
    <wvobject fp_name="/BCD_Counter_Test/Q" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">Q[3:0]</obj_property>
@@ -22,6 +24,8 @@
    <wvobject fp_name="/BCD_Counter_Test/CLK" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">CLK</obj_property>
       <obj_property name="ObjectShortName">CLK</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
    </wvobject>
    <wvobject fp_name="/BCD_Counter_Test/ENABLE" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">ENABLE</obj_property>
@@ -42,41 +46,7 @@
    <wvobject fp_name="/BCD_Counter_Test/D" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">D[3:0]</obj_property>
       <obj_property name="ObjectShortName">D[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/load_data" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">load_data</obj_property>
-      <obj_property name="ObjectShortName">load_data</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/increment" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">increment</obj_property>
-      <obj_property name="ObjectShortName">increment</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/decrement" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">decrement</obj_property>
-      <obj_property name="ObjectShortName">decrement</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/value_0" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">value_0[3:0]</obj_property>
-      <obj_property name="ObjectShortName">value_0[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/value_9" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">value_9[3:0]</obj_property>
-      <obj_property name="ObjectShortName">value_9[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/carry_add" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">carry_add</obj_property>
-      <obj_property name="ObjectShortName">carry_add</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/carry_sub" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">carry_sub</obj_property>
-      <obj_property name="ObjectShortName">carry_sub</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/reset" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Counter_Test/uut/pos_edge" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">pos_edge</obj_property>
-      <obj_property name="ObjectShortName">pos_edge</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
    </wvobject>
 </wave_config>

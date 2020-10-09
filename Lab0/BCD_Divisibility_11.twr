@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml BCD_Divisibility_11.twx BCD_Divisibility_11.ncd -o
+BCD_Divisibility_11.twr BCD_Divisibility_11.pcf
+
+Design file:              BCD_Divisibility_11.ncd
+Physical constraint file: BCD_Divisibility_11.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+INPUT<0>       |OUTPUT         |   85.058|
+INPUT<1>       |OUTPUT         |   84.628|
+INPUT<2>       |OUTPUT         |   84.752|
+INPUT<3>       |OUTPUT         |   84.786|
+INPUT<4>       |OUTPUT         |   85.026|
+INPUT<5>       |OUTPUT         |   84.832|
+INPUT<6>       |OUTPUT         |   85.064|
+INPUT<7>       |OUTPUT         |   84.373|
+INPUT<8>       |OUTPUT         |   86.273|
+INPUT<9>       |OUTPUT         |   86.424|
+INPUT<10>      |OUTPUT         |   86.721|
+INPUT<11>      |OUTPUT         |   84.661|
+INPUT<12>      |OUTPUT         |   86.715|
+INPUT<13>      |OUTPUT         |   86.308|
+INPUT<14>      |OUTPUT         |   86.581|
+INPUT<15>      |OUTPUT         |   86.444|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct  8 22:13:55 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 399 MB
+
+
+

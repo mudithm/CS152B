@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+BCD_Divisibility_11 instance_name (
+    .INPUT(INPUT), 
+    .OUTPUT(OUTPUT)
+    );
+
+

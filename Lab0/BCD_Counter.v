@@ -57,12 +57,13 @@ assign carry_sub = (ENABLE & !UP) & value_0;
 
 assign CO = carry_add | carry_sub; // carry logic
 
-reg pos_edge = 0;
+//reg pos_edge = 0;
 
-always @(posedge CLK) begin
-		pos_edge = 1;
-end
+reg counter = 0;
 
+//always @(posedge CLK) begin
+//		pos_edge <= 1;
+//end
 
 always @(*) begin
 	if (reset | CLR) begin // initialize values or clear (Asynchronous)
@@ -70,8 +71,8 @@ always @(*) begin
 		reset <= 0;
 	end
 	
-	else if (pos_edge) begin // if on positive edge of clock (Synchronous)
-		
+	@(posedge CLK) begin // if on positive edge of clock (Synchronous)
+	
 		//Loading Logic
 		if (load_data) begin // load
 			Q <= D[3:0];
@@ -94,8 +95,6 @@ always @(*) begin
 				Q <=  Q - 1;
 			end
 		end
-		
-	pos_edge = 0;
 	end
 
 end

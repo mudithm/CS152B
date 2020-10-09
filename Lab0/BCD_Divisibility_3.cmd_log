@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3.xst" -ofn "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3.syr" 
