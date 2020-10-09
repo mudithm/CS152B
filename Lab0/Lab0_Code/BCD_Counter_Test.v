@@ -78,7 +78,7 @@ module BCD_Counter_Test;
 	
 	/*
 	always @(*) begin
-		// Test incrementing
+		// Test decrementing
 		ENABLE = 1;
 		LOAD = 0;
 		UP = 1;
@@ -88,7 +88,7 @@ module BCD_Counter_Test;
 	end
 	*/
 	
-	///*
+	/*
 	always @(*) begin
 		// Test decrementing
 		ENABLE = 1;
@@ -98,7 +98,7 @@ module BCD_Counter_Test;
 		#100 CLK <= !CLK;
 		#100 CLK <= !CLK;
 	end
-	//*/
+	*/
 	
 	
 	/*
@@ -116,10 +116,8 @@ module BCD_Counter_Test;
 	end
 	*/
 	
-	/*
 	//CLR test
 	always @(*) begin
-		// CLR test
 		// Test Loading from D
 		
 		CLR = 1;
@@ -135,7 +133,7 @@ module BCD_Counter_Test;
 		#100 CLK <= !CLK;
 		
 	end
-	*/
+	
       
 endmodule
 

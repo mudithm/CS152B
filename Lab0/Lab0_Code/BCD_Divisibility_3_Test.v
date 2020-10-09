@@ -26,8 +26,6 @@ module BCD_Divisibility_3_Test;
 	reg [15:0] INPUT;
 	wire OUTPUT;
 	
-	reg [1:0] result;
-	
 	// Outputs
 	// Instantiate the Unit Under Test (UUT)
 	BCD_Divisibility_3 uut (
@@ -74,11 +72,8 @@ module BCD_Divisibility_3_Test;
 		
 		INPUT = 16'b1001100110011000; // 9998
 		#500;
-	
 		
 		$finish;
 	end
-	
-
       
 endmodule
