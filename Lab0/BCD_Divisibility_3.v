@@ -34,12 +34,9 @@ assign digit_2 = INPUT[11:8];
 assign digit_3 = INPUT[15:12];
 
 wire [5:0] modulo_3;
-
 `include "MathHelperFunctions.v"
 
 assign modulo_3 = four_digit_adder(digit_0, digit_1, digit_2, digit_3);
-
-
 
 endmodule
 

@@ -34,8 +34,11 @@ assign digit_2 = INPUT[11:8];
 assign digit_3 = INPUT[15:12];
 
 wire [5:0] modulo_11;
-assign modulo_11 = (digit_3 - digit_2 + digit_1 - digit_0) % 11;
 
-assign OUTPUT = ~|(modulo_11 ^ 5'b00000);
+`include "MathHelperFunctions.v"
+
+assign modulo_11 = four_digit_add_sub(digit_3, digit_2, digit_1, digit_0);
+
+//assign OUTPUT = ~|(modulo_11 ^ 5'b00000);
 
 endmodule

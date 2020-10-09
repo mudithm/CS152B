@@ -10,7 +10,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="4" />
+   <WVObjectSize size="5" />
    <wvobject fp_name="/BCD_Divisibility_3_Test/OUTPUT" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">OUTPUT</obj_property>
       <obj_property name="ObjectShortName">OUTPUT</obj_property>
@@ -26,5 +26,9 @@
    <wvobject fp_name="/BCD_Divisibility_3_Test/uut/modulo_3" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">modulo_3[5:0]</obj_property>
       <obj_property name="ObjectShortName">modulo_3[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/modulo_11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">modulo_11[5:0]</obj_property>
+      <obj_property name="ObjectShortName">modulo_11[5:0]</obj_property>
    </wvobject>
 </wave_config>

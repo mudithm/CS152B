@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3_Test_isim_beh.wdb 
+Running: /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test_isim_beh.wdb 
 ISim P.20160913 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
@@ -12,14 +12,70 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
+Adding  X,  X,  X, and  X
+ X +  X gives 00xxxxx carry 0
+  X +   x gives 0xxxxxx carry x
+   X +   x gives xxxxxxx carry x
+Adding  0,  0,  0, and  0
+ 0 +  0 gives 0000000 carry 0
+  0 +   0 gives 0000000 carry 0
+   0 +   0 gives 0000000 carry 0
 Finished circuit initialization process.
-# restart
-# run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
+Adding  0,  0,  0, and  1
+ 0 +  0 gives 0000000 carry 0
+  0 +   0 gives 0000000 carry 0
+   0 +  -1 gives 1111111 carry 0
 # restart
 # run 10.00us
 Simulator is doing circuit initialization process.
+Adding  X,  X,  X, and  X
+ X +  X gives 00xxxxx carry 0
+  X +   x gives 0xxxxxx carry x
+   X +   x gives xxxxxxx carry x
+Adding  0,  0,  0, and  0
+ 0 +  0 gives 0000000 carry 0
+  0 +   0 gives 0000000 carry 0
+   0 +   0 gives 0000000 carry 0
 Finished circuit initialization process.
-Stopped at time : 5500 ns : File "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_3_Test.v" Line 79
+Adding  0,  0,  0, and  1
+ 0 +  0 gives 0000000 carry 0
+  0 +   0 gives 0000000 carry 0
+   0 +  -1 gives 1111111 carry 0
+Adding  0,  0,  1, and  1
+ 0 +  1 gives 0000001 carry 0
+  1 +   0 gives 0000001 carry 0
+   1 +  -1 gives 0000000 carry 1
+Adding  0,  0,  1, and  2
+ 0 +  1 gives 0000001 carry 0
+  1 +   0 gives 0000001 carry 0
+   1 +  -2 gives 1111111 carry 0
+Adding  0,  0,  2, and  2
+ 0 +  2 gives 0000010 carry 0
+  2 +   0 gives 0000010 carry 0
+   2 +  -2 gives 0000000 carry 1
+Adding  0,  0,  2, and  3
+ 0 +  2 gives 0000010 carry 0
+  2 +   0 gives 0000010 carry 0
+   2 +  -3 gives 1111111 carry 0
+Adding  0,  0,  3, and  3
+ 0 +  3 gives 0000011 carry 0
+  3 +   0 gives 0000011 carry 0
+   3 +  -3 gives 0000000 carry 1
+Adding  9,  9,  9, and  8
+ 9 +  9 gives 0010010 carry 0
+ 18 +  -9 gives 0001001 carry 1
+   9 +  -8 gives 0000001 carry 1
+Adding  9,  8,  6, and  7
+ 9 +  6 gives 0001111 carry 0
+ 15 +  -8 gives 0000111 carry 1
+   7 +  -7 gives 0000000 carry 1
+Adding  9,  0,  9, and  0
+ 9 +  9 gives 0010010 carry 0
+ 18 +   0 gives 0010010 carry 0
+  18 +   0 gives 0010010 carry 0
+Adding  9,  9,  9, and  9
+ 9 +  9 gives 0010010 carry 0
+ 18 +  -9 gives 0001001 carry 1
+   9 +  -9 gives 0000000 carry 1
+Stopped at time : 6 us : File "/home/ise/Xilinx_Shared/Lab0/BCD_Divisibility_11_Test.v" Line 75
 # exit 0
