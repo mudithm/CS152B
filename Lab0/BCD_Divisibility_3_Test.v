@@ -42,51 +42,60 @@ module BCD_Divisibility_3_Test;
 		// Wait 100 ns for global reset to finish
 		#500;
       
-		CLK = 1;		
+		CLK = 0;		
 		// Add stimulus here
 		
-		#500 CLK = ~CLK;
+		#500;
 		INPUT = 16'b0000000000000000; // 0
+		#10 CLK = ~CLK;
 		#500 CLK = ~CLK;
 		
-		#500 CLK = ~CLK;
+		#500;
 		INPUT = 16'b0000000000000001; // 1
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
-		#500 CLK = ~CLK;
+		#500;
 		INPUT = 16'b0000000000000010;  // 2
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
-		#500 CLK = ~CLK;
+				
+		#500;
 		INPUT = 16'b0000000000000011;  // 3
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
+				
 		// digit 2
 		
-		#500 CLK = ~CLK;
+		#500;
 		INPUT = 16'b0000000000010000; // 10
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
-		#500 CLK = ~CLK;
+				
+		#500;
 		INPUT = 16'b0000000000100001; // 21
+#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
-		#500 CLK = ~CLK;
+				
+		#500;
 		INPUT = 16'b0000000000110010; // 32	
+#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
-		#500 CLK = ~CLK;
+				
+		#500;
 		INPUT = 16'b0000000001000011; // 43
+#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
-		#500 CLK = ~CLK;
+				
+		#500;
 		// all digits
 		INPUT = 16'b1001100110011001; // 9999			
+#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		
-		#500 CLK = ~CLK;
+				
+		#500;
 		INPUT = 16'b1001100110011000; // 9998		
-		#500 CLK = ~CLK;
+#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 
 		$finish;

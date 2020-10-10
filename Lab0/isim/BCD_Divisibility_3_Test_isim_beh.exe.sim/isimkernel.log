@@ -2,9 +2,9 @@ Command line:
    BCD_Divisibility_3_Test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  35300
+     -socket  35503
 
-Sat Oct 10 00:53:10 2020
+Sat Oct 10 01:02:37 2020
 
 
  Elaboration Time: 0.02 sec
@@ -20,9 +20,9 @@ Sat Oct 10 00:53:10 2020
  Total Traceable Variables  : 58
  Total Scalar Nets and Variables : 300
 
- Total Simulation Time: 0.03 sec
+ Total Simulation Time: 0.04 sec
 
  Current Memory Usage: 276.197 Meg
 
-Sat Oct 10 00:53:41 2020
+Sat Oct 10 01:03:24 2020
 
