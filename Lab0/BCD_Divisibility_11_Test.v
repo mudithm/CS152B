@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 10ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
 // Company: 
@@ -42,55 +42,65 @@ module BCD_Divisibility_11_Test;
 		// Wait 100 ns for global reset to finish
 		#500;
 		CLK = 0;
-        
+      		
+		#500;
 		INPUT = 16'b0000000000000000; // 0
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
-		#500 CLK = ~CLK;
-
-
 		
+		#500;
 		INPUT = 16'b0000000000000001; // 1
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b0000000000010001; // 11
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b0000000000010010; // 12
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b0000000000100010; // 22
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b0000000000100011; // 23
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b0000000000110011; // 33
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b1001100110011000; // 9998
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b1001100001100111; // 9867
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b1001000010010000; // 9090
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b1001100110011001; // 9999
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
 		INPUT = 16'b0000100110011001; // 0999
-		#500 CLK = ~CLK;
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
 		$finish;

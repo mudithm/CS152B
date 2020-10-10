@@ -51,7 +51,7 @@ reg [6:0] result;
 assign OUTPUT = !(result ^ 0);
 
 always @(posedge CLK) begin
-	result <= get_remainder_11(modulo_11_normalized, 11);
+	result <= get_remainder(modulo_11_normalized, 11);
 end
 	
 endmodule

@@ -60,7 +60,7 @@ function [7:0] negator;
 	reg carryout;
 	begin
 		{negator, carryout} = $signed(two_digit_adder($signed(~a), 1, 0));	
-		$display("Negation -- before %b, after %b", $signed(a), $signed(negator));
+		//$display("Negation -- before %d, after %d", $signed(a), $signed(negator));
 	end
 endfunction
 
