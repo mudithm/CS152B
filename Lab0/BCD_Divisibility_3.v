@@ -18,10 +18,11 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module BCD_Divisibility_3(INPUT, OUTPUT);
+module BCD_Divisibility_3(INPUT, OUTPUT, CLK);
 
 input wire [15:0] INPUT;
 output wire OUTPUT;
+input CLK;
 
 wire [3:0] digit_0;
 wire [3:0] digit_1;
@@ -33,10 +34,16 @@ assign digit_1 = INPUT[7:4];
 assign digit_2 = INPUT[11:8];
 assign digit_3 = INPUT[15:12];
 
-wire [5:0] modulo_3;
+reg [6:0] result;
+wire [6:0] modulo_3;
 `include "MathHelperFunctions.v"
 
 assign modulo_3 = four_digit_adder(digit_0, digit_1, digit_2, digit_3);
+assign OUTPUT = !(result ^ 0);
+
+always @(posedge CLK) begin
+	result <= get_remainder(modulo_3, 3);
+end
 
 endmodule
 

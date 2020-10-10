@@ -10,17 +10,18 @@ function [1:0] single_bit_adder;
 endfunction
 
 // Function to add two digits, with a carry out bit
-function [6:0] two_digit_adder;
-	input [5:0] a, b, carryin;
-	reg sum5, sum4, sum3, sum2, sum1, sum0, carry, carryout;
+function [7:0] two_digit_adder;
+	input [6:0] a, b, carryin;
+	reg sum6, sum5, sum4, sum3, sum2, sum1, sum0, carry;
 	begin
 		{sum0, carry} = single_bit_adder(a[0], b[0], carryin);
 		{sum1, carry} = single_bit_adder(a[1], b[1], carry);
 		{sum2, carry} = single_bit_adder(a[2], b[2], carry);
 		{sum3, carry} = single_bit_adder(a[3], b[3], carry);
 		{sum4, carry} = single_bit_adder(a[4], b[4], carry); // in case the current sum has 5 bits
-		{sum5, carryout} = single_bit_adder(a[5], b[5], carry); // in case the current sum has 6 bits
-		two_digit_adder = {sum5, sum4, sum3, sum2, sum1, sum0, carryout};
+		{sum5, carry} = single_bit_adder(a[5], b[5], carry); // in case the current sum has 6 bits
+		{sum6, carry} = single_bit_adder(a[6], b[6], carry); // in case the current sum has 6 bits
+		two_digit_adder = {sum6, sum5, sum4, sum3, sum2, sum1, sum0, carry};
 	end
 endfunction
 
@@ -54,11 +55,33 @@ endfunction
 
 
 // Function to negate a four-bit digit
-function [5:0] negator;
+function [7:0] negator;
 	input [5:0] a;
 	reg carryout;
 	begin
-		{negator, carryout} = two_digit_adder($signed(~a), 1, 0);	
+		{negator, carryout} = $signed(two_digit_adder($signed(~a), 1, 0));	
+		$display("Negation -- before %b, after %b", $signed(a), $signed(negator));
 	end
 endfunction
+
+// Function to get the remainder of a division
+function automatic [7:0] get_remainder;
+	input [7:0] dividend, divisor;
+	reg [7:0] difference;
+	reg carry;
+	begin
+		{difference, carry} = $signed(two_digit_adder(dividend, negator(divisor), 0));
+		$display("Difference: %b - %b = %b", dividend, divisor, difference);
+		if ($signed(difference) < 0) begin // if the result of the subtraction is negative
+			get_remainder = dividend;
+			$display("   Result: %b", get_remainder);
+		end
+		else
+			get_remainder = get_remainder(difference, divisor);
+	end
+endfunction
+
+
+
+
 	
