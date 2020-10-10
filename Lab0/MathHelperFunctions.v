@@ -72,7 +72,7 @@ function automatic [7:0] get_remainder;
 	begin
 		{difference, carry} = $signed(two_digit_adder(dividend, negator(divisor), 0));
 		$display("Difference: %b - %b = %b", dividend, divisor, difference);
-		if ($signed(difference) < 0) begin // if the result of the subtraction is negative
+		if (difference[7]) begin // if the result of the subtraction is negative
 			get_remainder = dividend;
 			$display("   Result: %b", get_remainder);
 		end

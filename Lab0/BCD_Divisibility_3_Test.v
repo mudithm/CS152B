@@ -74,28 +74,28 @@ module BCD_Divisibility_3_Test;
 				
 		#500;
 		INPUT = 16'b0000000000100001; // 21
-#10 CLK = ~CLK;		
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 				
 		#500;
 		INPUT = 16'b0000000000110010; // 32	
-#10 CLK = ~CLK;		
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 				
 		#500;
 		INPUT = 16'b0000000001000011; // 43
-#10 CLK = ~CLK;		
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 				
 		#500;
 		// all digits
 		INPUT = 16'b1001100110011001; // 9999			
-#10 CLK = ~CLK;		
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 				
 		#500;
 		INPUT = 16'b1001100110011000; // 9998		
-#10 CLK = ~CLK;		
+		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 
 		$finish;
