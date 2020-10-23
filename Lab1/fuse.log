@@ -1,23 +1,36 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder_test_isim_beh.exe -prj /home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder_test_beh.prj work.sixteen_bit_adder_test work.glbl 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test_isim_beh.exe -prj /home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test_beh.prj work.sixteen_bit_alu_test work.glbl 
 ISim P.20160913 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
 Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab1/addbit.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab1/twelve_input_mux.v" into library work
 Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder.v" into library work
-Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder_test.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" into library work
+WARNING:HDLCompiler:327 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 104: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test.v" into library work
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:327 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 104: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 60: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 75: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 84: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 86: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 43: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 45: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 51: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
-Fuse Memory Usage: 94912 KB
+Fuse Memory Usage: 95048 KB
 Fuse CPU Usage: 440 ms
 Compiling module addbit
 Compiling module sixteen_bit_adder
-Compiling module sixteen_bit_adder_test
+Compiling module twelve_input_mux
+Compiling module sixteen_bit_alu
+Compiling module sixteen_bit_alu_test
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 4 Verilog Units
-Built simulation executable /home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder_test_isim_beh.exe
-Fuse Memory Usage: 98080 KB
-Fuse CPU Usage: 450 ms
-GCC CPU Usage: 140 ms
+Compiled 6 Verilog Units
+Built simulation executable /home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test_isim_beh.exe
+Fuse Memory Usage: 98580 KB
+Fuse CPU Usage: 470 ms
+GCC CPU Usage: 270 ms

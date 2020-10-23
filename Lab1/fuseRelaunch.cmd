@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder_test_isim_beh.exe" -prj "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_adder_test_beh.prj" "work.sixteen_bit_adder_test" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test_isim_beh.exe" -prj "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test_beh.prj" "work.sixteen_bit_alu_test" "work.glbl" 

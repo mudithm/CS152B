@@ -163,7 +163,7 @@ module sixteen_bit_adder(
 	 .cout(possible_overflow) // carry out
     );
 	 
-	 assign overflow = (result[15] & (~a[15] & ~b[15])) | (~result[15] & (a[15] & b[15])); // if overflow occurred
+	assign overflow = (result[15] & (~a[15] & ~b[15])) | (~result[15] & (a[15] & b[15])); // if overflow occurred
 
 
 endmodule

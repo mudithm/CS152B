@@ -1,0 +1,4 @@
+verilog work "addbit.v"
+verilog work "twelve_input_mux.v"
+verilog work "sixteen_bit_adder.v"
+verilog work "sixteen_bit_alu.v"

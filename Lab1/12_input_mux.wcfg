@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Xilinx_Shared/Lab1/twelve_input_mux_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="twelve_input_mux_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/twelve_input_mux_test/out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_2[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_3[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_4[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_5[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_6[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_7[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_8[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_9[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_10[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_11[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/input_12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_12[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/twelve_input_mux_test/selector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">selector[3:0]</obj_property>
+      <obj_property name="ObjectShortName">selector[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

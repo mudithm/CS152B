@@ -5,5 +5,32 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 104: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 104: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 60: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 75: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 84: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 86: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 43: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 45: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 51: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
 </messages>
 

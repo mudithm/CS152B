@@ -11,6 +11,18 @@
       </db_ref>
    </db_ref_list>
    <WVObjectSize size="8" />
+   <wvobject fp_name="/one_bit_alu_test/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one_bit_alu_test/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one_bit_alu_test/uut/final_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">final_b</obj_property>
+      <obj_property name="ObjectShortName">final_b</obj_property>
+   </wvobject>
    <wvobject fp_name="/one_bit_alu_test/result" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">result</obj_property>
       <obj_property name="ObjectShortName">result</obj_property>
@@ -19,10 +31,6 @@
       <obj_property name="ElementShortName">cout</obj_property>
       <obj_property name="ObjectShortName">cout</obj_property>
    </wvobject>
-   <wvobject fp_name="/one_bit_alu_test/a" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">a</obj_property>
-      <obj_property name="ObjectShortName">a</obj_property>
-   </wvobject>
    <wvobject fp_name="/one_bit_alu_test/b" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">b</obj_property>
       <obj_property name="ObjectShortName">b</obj_property>
@@ -30,14 +38,6 @@
    <wvobject fp_name="/one_bit_alu_test/invert_b" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">invert_b</obj_property>
       <obj_property name="ObjectShortName">invert_b</obj_property>
-   </wvobject>
-   <wvobject fp_name="/one_bit_alu_test/cin" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">cin</obj_property>
-      <obj_property name="ObjectShortName">cin</obj_property>
-   </wvobject>
-   <wvobject fp_name="/one_bit_alu_test/uut/final_b" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">final_b</obj_property>
-      <obj_property name="ObjectShortName">final_b</obj_property>
    </wvobject>
    <wvobject fp_name="/one_bit_alu_test/operation" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">operation[1:0]</obj_property>

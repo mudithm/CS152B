@@ -26,8 +26,15 @@ module two_one_mux(
 	 );
 	 
 	input input_1, input_2, selector;
-	output wire out;
+	output reg out; // wire out;
 	
-	assign out = (input_2 & selector) | (input_1 & ~selector);
+	//assign out = (input_2 & selector) | (input_1 & ~selector);
+	
+	always @(selector, input_1, input_2) begin
+		if (selector == 0)
+			out <= input_1;
+		else
+			out <= input_2;
+	end
 
 endmodule
