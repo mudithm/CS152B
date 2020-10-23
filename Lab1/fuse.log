@@ -21,7 +21,7 @@ WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 
 WARNING:HDLCompiler:189 - "/home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu.v" Line 51: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
 Fuse Memory Usage: 95048 KB
-Fuse CPU Usage: 440 ms
+Fuse CPU Usage: 460 ms
 Compiling module addbit
 Compiling module sixteen_bit_adder
 Compiling module twelve_input_mux
@@ -31,6 +31,6 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 6 Verilog Units
 Built simulation executable /home/ise/Xilinx_Shared/Lab1/sixteen_bit_alu_test_isim_beh.exe
-Fuse Memory Usage: 98580 KB
+Fuse Memory Usage: 98584 KB
 Fuse CPU Usage: 470 ms
 GCC CPU Usage: 270 ms

@@ -103,14 +103,14 @@ module sixteen_bit_alu(
 	 // Logical Shift Right
 	 assign log_r = {0, A >> B};
 	 
-	 assign Overflow = (A[15] ^ arith_l[15]) & (!(ALUCtrl ^ 4'b1100)) // arith shift left
-							| (A[15] ^ arith_r[15]) & (!(ALUCtrl ^ 4'b1110)) // arith shift right
-							| (A[15] ^ log_l[15]) & (!(ALUCtrl ^ 4'b1000)) // logic shift left
-							| (A[15] ^ log_r[15]) & (!(ALUCtrl ^ 4'b1010)) // logic shift right
-							| (possible_overflow[0] ^ (!(ALUCtrl ^ 4'b0000))) 
-							| (possible_overflow[1] ^ (!(ALUCtrl ^ 4'b0001))) 
-							| (possible_overflow[2] ^ (!(ALUCtrl ^ 4'b0100))) 
-							| (possible_overflow[3] ^ (!(ALUCtrl ^ 4'b0101))) ;
+	 assign Overflow = ((A[15] ^ arith_l[15]) & (!(ALUCtrl ^ 4'b1100))) // arith shift left
+							| ((A[15] ^ arith_r[15]) & (!(ALUCtrl ^ 4'b1110))) // arith shift right
+							| ((A[15] ^ log_l[15]) & (!(ALUCtrl ^ 4'b1000))) // logic shift left
+							| ((A[15] ^ log_r[15]) & (!(ALUCtrl ^ 4'b1010))) // logic shift right
+							| (possible_overflow[0] & (!(ALUCtrl ^ 4'b0000))) 
+							| (possible_overflow[1] & (!(ALUCtrl ^ 4'b0001))) 
+							| (possible_overflow[2] & (!(ALUCtrl ^ 4'b0100))) 
+							| (possible_overflow[3] & (!(ALUCtrl ^ 4'b0101))) ;
 	 
 	 assign set_on_le = sub[15] | !(sub ^ 0);
 	 

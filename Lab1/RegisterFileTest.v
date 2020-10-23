@@ -54,7 +54,8 @@ module RegisterFileTest;
 		// Initialize Inputs
 		clk = 0;
 		#500 clk <= !clk;
-		#500 clk <= !clk; #500 clk <= !clk;
+		#500 clk <= !clk; 
+		#500 clk <= !clk;
 		
 		rst = 0;
 		Ra = 10;

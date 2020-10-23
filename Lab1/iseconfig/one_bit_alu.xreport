@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-10-23T10:04:29</DateModified>
+  <DateModified>2020-10-23T17:08:07</DateModified>
   <ModuleName>one_bit_alu</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/ise/Xilinx_Shared/Lab1/iseconfig/one_bit_alu.xreport</SavedFilePath>
