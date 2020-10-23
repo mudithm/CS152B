@@ -18,19 +18,20 @@
    <wvobject fp_name="/BCD_Divisibility_3_Test/INPUT" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">INPUT[15:0]</obj_property>
       <obj_property name="ObjectShortName">INPUT[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/modulo_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">modulo_3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">modulo_3[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BCD_Divisibility_3_Test/CLK" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">CLK</obj_property>
       <obj_property name="ObjectShortName">CLK</obj_property>
    </wvobject>
-   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_0" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">digit_0[3:0]</obj_property>
-      <obj_property name="ObjectShortName">digit_0[3:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_1" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">digit_1[3:0]</obj_property>
-      <obj_property name="ObjectShortName">digit_1[3:0]</obj_property>
+   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_3[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_2" type="array" db_ref_id="1">
@@ -38,14 +39,14 @@
       <obj_property name="ObjectShortName">digit_2[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_3" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">digit_3[3:0]</obj_property>
-      <obj_property name="ObjectShortName">digit_3[3:0]</obj_property>
+   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_1[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/modulo_3" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">modulo_3[6:0]</obj_property>
-      <obj_property name="ObjectShortName">modulo_3[6:0]</obj_property>
+   <wvobject fp_name="/BCD_Divisibility_3_Test/uut/digit_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit_0[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BCD_Divisibility_3_Test/uut/result" type="array" db_ref_id="1">

@@ -22,6 +22,7 @@
    <wvobject fp_name="/BCD_Divisibility_11_Test/INPUT" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">INPUT[15:0]</obj_property>
       <obj_property name="ObjectShortName">INPUT[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/BCD_Divisibility_11_Test/uut/modulo_11" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">modulo_11[5:0]</obj_property>

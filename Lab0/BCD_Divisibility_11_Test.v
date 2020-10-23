@@ -103,6 +103,17 @@ module BCD_Divisibility_11_Test;
 		#10 CLK = ~CLK;		
 		#500 CLK = ~CLK;
 		
+		#500;
+		INPUT = 16'b1001000000100000; // 0999
+		#10 CLK = ~CLK;		
+		#500 CLK = ~CLK;
+		
+		#500;
+		INPUT = 16'b0000100100000010; // 0999
+		#10 CLK = ~CLK;		
+		#500 CLK = ~CLK;
+		
+		
 		$finish;
 	end
       

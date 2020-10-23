@@ -1,0 +1,6 @@
+verilog work "two_one_mux.v"
+verilog work "three_one_mux.v"
+verilog work "addbit.v"
+verilog work "one_bit_alu.v"
+verilog work "one_bit_alu_test.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
